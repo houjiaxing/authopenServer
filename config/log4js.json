@@ -1,0 +1,20 @@
+{
+    "debug": {
+        "appenders": {
+            "authopenLogs": { "type": "datefile", "filename": "./authOpenLogs/", "layout": { "type": "basic" }, "pattern": "yyyy-MM-dd-hh.log", "alwaysIncludePattern": "true", "replaceConsole": "true" },
+            "console": { "type": "console" }
+        },
+        "categories": {
+            "default": { "appenders": ["authopenLogs", "console"], "level": "ALL" }
+        }
+    },
+    "build": {
+        "appenders": {
+            "authopenLogs": { "type": "datefile", "filename": "./authOpenLogs/", "layout": { "type": "basic" }, "pattern": "yyyy-MM-dd-hh.log", "alwaysIncludePattern": "true", "replaceConsole": "true" },
+            "console": { "type": "console" }
+        },
+        "categories": {
+            "default": { "appenders": ["authopenLogs", "console"], "level": "warn" }
+        }
+    }
+}

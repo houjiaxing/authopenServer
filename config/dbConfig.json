@@ -1,0 +1,16 @@
+{
+    "dev": {
+        "host": "t.lukex.cc",
+        "user": "root",
+        "password": "root",
+        "database": "authopenserver",
+        "timeout": 5000
+    },
+    "build": {
+        "host": "",
+        "user": "",
+        "password": "",
+        "database": "",
+        "timeout": 5000
+    }
+}
